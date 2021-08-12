@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Basket.API.Repositories
 {
-    interface IBasketRepository
+    public interface IBasketRepository
     {
         Task<ShoppingCart> Get(string userName);
         Task<ShoppingCart> Update(ShoppingCart basket);
